@@ -61,10 +61,10 @@ while continue_execution:
     path = graph.path_bfs(start_vertex, end_vertex, predecessor)
 
     # Exibir resultados
-    print("Distância (BFS):", distance)
-    print("Antecessores (BFS):", predecessor)
-    print("DFS:", dfs_result)
-    print("Caminho encontrado (BFS):", path)
+    print("Distância:", distance)
+    print("Antecessores:", predecessor)
+    print("dfs:", dfs_result)
+    print("Caminho:", path)
 
     user_input = input("Deseja continuar? (s/n) ")
 
